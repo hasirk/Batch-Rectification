@@ -1,0 +1,12 @@
+CMAKE_MINIMUM_REQUIRED( VERSION 2.8 )
+PROJECT( BatchRec )
+
+#SET(CMAKE_CXX_COMPILER "g++")
+#SET( CMAKE_BUILD_TYPE Debug  )
+
+# 增加opencv的依赖
+FIND_PACKAGE( OpenCV REQUIRED )
+
+ADD_EXECUTABLE( rectify batch_rectify.cpp )
+TARGET_LINK_LIBRARIES( rectify ${OpenCV_LIBS})
+

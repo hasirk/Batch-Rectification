@@ -1,0 +1,1 @@
+/home/hk/Documents/Batch_rectrify-master/build/CMakeFiles/rectify.dir
